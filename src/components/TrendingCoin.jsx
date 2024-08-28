@@ -52,7 +52,7 @@ const TrendingCoin = ({
           {coinValue} {coinCurrency}
         </p>
         <p className="text-tok-dark-gray dark:text-tok-gray font-medium">
-          ${dollarValue}
+          {dollarValue}
         </p>
       </div>
     </div>

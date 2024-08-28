@@ -34,7 +34,7 @@ function App() {
         .removeEventListener("change", themeListener);
   }, []);
   return (
-    <div className="font-monoSans text-tok-dark min-h-screen min-w-screen dark:bg-tok-dark-bg dark:text-tok-light-gray">
+    <div className="font-monaSans text-tok-dark min-h-screen min-w-screen dark:bg-tok-dark-bg dark:text-tok-light-gray">
       <Sidebar />
       <div
         className={`transition-margin duration-300 ${

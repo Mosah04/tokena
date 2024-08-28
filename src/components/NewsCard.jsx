@@ -4,10 +4,14 @@ import Comment from "@/icons/comment";
 
 const NewsCard = () => {
   return (
-    <div className="p-2 rounded-lg inline-block border border-tok-light-gray dark:border-tok-gray/15 text-sm">
-      <div className="flex gap-2">
-        <div className="h-12 rounded-full overflow-hidden">
-          <img src="" alt="" className="h-full" />
+    <div className="p-2 rounded-lg inline-block hover:shadow-md hover:dark:shadow-tok-gray transition-shadow duration-300 ease-out border border-tok-light-gray dark:border-tok-gray/15 text-sm cursor-pointer space-y-2">
+      <div className="flex gap-2 items-center">
+        <div className="h-12 w-12 rounded-full overflow-hidden">
+          <img
+            src="/assets/marketCapNews.jpeg"
+            alt="Market Cap Logo"
+            className="h-full"
+          />
         </div>
         <div>
           <span className="font-semibold">CoinMarketCap</span>
@@ -22,11 +26,11 @@ const NewsCard = () => {
       <p className="italic font-semibold">
         Ethereum’s Merge Coming and the Stakes Couldn’t Be Higher
       </p>
-      <p className="mt-2">
+      <p className="">
         The most important upgrade in blockchain history is slated for August.
         And the outcome of Ethe....
       </p>
-      <div className="mt-2 flex gap-2">
+      <div className=" flex gap-2">
         <div className="flex gap-1">
           <button type="button">
             <Heart />

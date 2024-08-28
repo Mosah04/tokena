@@ -5,14 +5,20 @@ const AddFavorite = () => {
   const [checked, setChecked] = useState(false);
   return (
     <span
-      onClick={() => {
+      onClick={(e) => {
+        e.stopPropagation();
         setChecked((checked) => !checked);
       }}
+      className="h-[20px] w-[20px]"
     >
       {checked ? (
-        <img src="/assets/icons/star-checked.svg" alt="Favorite" />
+        <img
+          className="h-full w-full"
+          src="/assets/icons/star-checked.svg"
+          alt="Favorite"
+        />
       ) : (
-        <StarUnchecked />
+        <StarUnchecked className="h-full" />
       )}
     </span>
   );

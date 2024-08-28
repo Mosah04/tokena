@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        monoSans: ["MonoSans", "sans-serif"],
+        monaSans: ["MonaSans", "sans-serif"],
       },
       colors: {
         "tok-light-gray": "#F3F4F6",

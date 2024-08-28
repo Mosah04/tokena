@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "MonoSans";
+  font-family: "MonaSans";
   src: url("../public/fonts/Mona-Sans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "MonoSans";
+  font-family: "MonaSans";
   src: url("../public/fonts/Mona-Sans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "MonoSans";
+  font-family: "MonaSans";
   src: url("../public/fonts/Mona-Sans-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-display: swap;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: "MonoSans";
+  font-family: "MonaSans";
   src: url("../public/fonts/Mona-Sans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: "MonoSans";
+  font-family: "MonaSans";
   src: url("../public/fonts/Mona-Sans-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-display: swap;
