@@ -11,7 +11,7 @@ const TrendingCoin = ({
   changeAmount,
 }) => {
   return (
-    <div className="min-w-64 max-sm:min-w-40 flex-1 text-sm space-y-2 rounded-lg p-3 border border-tok-light-gray dark:border-tok-gray/20">
+    <div className="min-w-64 max-sm:min-w-40 flex-1 text-xs sm:text-sm space-y-2 rounded-lg p-3 border border-tok-light-gray dark:border-tok-gray/20">
       <div className="w-full flex justify-between items-center">
         <div className="flex-grow flex items-center gap-1">
           <div className="rounded-full h-9 w-9 overflow-hidden">
@@ -30,11 +30,11 @@ const TrendingCoin = ({
           </div>
         </div>
         <span
-          className={`font-semibold flex gap-1 rounded-full ${
+          className={`font-semibold flex items-center gap-1 rounded-full ${
             changeAmount < 0
               ? "text-tok-red bg-tok-red/15"
               : "text-tok-green bg-tok-green/15"
-          } dark:text-tok-light-gray py-1 px-2`}
+          } dark:text-tok-light-gray py-1 px-1 sm:px-2`}
         >
           <span>
             {changeAmount > 0 && "+"}
